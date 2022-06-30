@@ -17,16 +17,6 @@
 CREATE DATABASE IF NOT EXISTS `teste_upload_xml` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 USE `teste_upload_xml`;
 
--- Copiando estrutura para tabela teste_upload_xml.employee
-CREATE TABLE IF NOT EXISTS `employee` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) NOT NULL,
-  `address` text NOT NULL,
-  `gender` varchar(10) NOT NULL,
-  `designation` varchar(100) NOT NULL,
-  `age` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
 
 -- Exportação de dados foi desmarcado.
 
@@ -49,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `nfe` (
   `dest_cod_pais` varchar(50) DEFAULT NULL,
   `dest_fone` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
 -- Exportação de dados foi desmarcado.
 
